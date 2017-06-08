@@ -3,7 +3,7 @@ import cv2
 image = cv2.imread("gatito.jpg");
 cv2.imshow("Gatito",image);
 
-blur = cv2.GaussianBlur(image, (5,5), 0);
+blur = cv2.GaussianBlur(image, (21,21), 0);
 cv2.imshow("Con blur!!", blur);
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY);
