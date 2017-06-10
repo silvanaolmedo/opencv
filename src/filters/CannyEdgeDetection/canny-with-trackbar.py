@@ -4,7 +4,7 @@ import numpy as np
 def nothing(x):
 	pass
 
-img = cv2.imread('../gatito.jpg');
+img = cv2.imread('gatito2.jpg');
 img_default = img
 name_window = "Canny Edge Detection with Trackbars"
 cv2.namedWindow(name_window)
