@@ -21,7 +21,7 @@ while(True):
 	minVal = cv2.getTrackbarPos('minVal',name_window)
 	maxVal = cv2.getTrackbarPos('maxVal',name_window)
 
-	if(minVal == 0 & maxVal == 0):
+	if(minVal == 0 and maxVal == 0):
 		img = img_default
 	else:
 		img = cv2.Canny(img_default,minVal,maxVal)
